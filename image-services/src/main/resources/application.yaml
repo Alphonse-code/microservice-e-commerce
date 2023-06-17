@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: image-services
+  config:
+    import: optional:configserver:http://localhost:8081
